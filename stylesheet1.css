@@ -12,6 +12,13 @@ h2 {
 	font-size: large;
 }
 
+h3 {
+	color: #0f2b00;
+	margin: 2px;
+	padding: 5px;
+	text-align: center;
+}
+
 body {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	line-height: 125%;
@@ -47,4 +54,13 @@ body {
 	margin: 3px;
 }
 
-
+aside {
+	border: 1px solid silver;
+	margin: 5px;
+	padding: 3px;
+	border-radius: 15px;
+	max-width: 500px;
+	float: right;
+	text-align: center;
+	background-color: #f7f1ed;
+}
