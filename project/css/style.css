@@ -1,66 +1,44 @@
+
+/* Header things */
+
+header {
+}
+
 h1 {
-	margin: 0;
-	padding: 15px 20px 0;
+	
 }
 
 h2 {
-	color: #0f2b00;
-	margin: 2px;
-	padding: 5px;
-	background-color: #ffe8cf;
-	border-radius: 15px;
-	font-size: large;
+
 }
 
 h3 {
-	color: #0f2b00;
-	margin: 2px;
-	padding: 5px;
-	text-align: center;
+	
 }
+
+navigation {
+}
+
+/* Body things */
 
 body {
-	font-family: Verdana, Helvetica, Arial, sans-serif;
-	line-height: 125%;
-	padding: 15px;
-	background-color: #f5ede8;
-	font: 100%;
-	max-width: 900px;
-	margin: 0 auto;
-	font-size: small;
-}
 
-#site{
-	border: 1px solid silver;
-	padding: 5px;
-	background-color: #fdfbf9;
-	border-radius: 15px;
-	margin: 3px;
-}
-
-#competitive{
-	border: 1px solid silver;
-	padding: 5px;
-	background-color: #fdfbf9;
-	border-radius: 15px;
-	margin: 3px;
-}
-
-#target {
-	border: 1px solid silver;
-	padding: 5px;
-	background-color: #fdfbf9;
-	border-radius: 15px;
-	margin: 3px;
 }
 
 aside {
-	border: 1px solid silver;
-	margin: 5px;
-	padding: 3px;
-	border-radius: 15px;
-	max-width: 500px;
-	float: right;
-	text-align: center;
-	background-color: #f7f1ed;
 }
+
+ul {
+}
+
+/* Footer things */
+
+footer {
+}
+
+/* button graphics and charts */
+
+table {
+}
+
+
