@@ -5,12 +5,9 @@ header {
 }
 
 h1 {
-	font-family: "apple chancery", Arial, Helvetica, sans-serif;
+	font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
 	font-size: 2em;
-	background: #081d4a;
-	background: -webkit-gradient(linear, left top, left bottom, from(#142b5f), to(#081d4a));
-	background: -moz-linear-gradient(top,  #142b5f,  #081d4a);
-	color: white;
+	color: black;
 	padding-top: 2em;
 	padding-bottom: .2em;
 	padding-left: .4em;
@@ -21,7 +18,7 @@ h1 {
 }
 
 h2 {
-	font-family: "apple chancery", Arial, Helvetica, sans-serif;
+	font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
 	font-size: x-large;
 	color: blue;
 	font-weight: normal;
