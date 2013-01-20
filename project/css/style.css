@@ -47,9 +47,15 @@ aside {
 ul {
 }
 
+#pocket {
+	float: left;
+	border: 1px solid black;
+	}
 /* Footer things */
 
 footer {
+	font-size: xx-small;
+	overflow: hidden;
 }
 
 /* button graphics and charts */
