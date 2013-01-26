@@ -4,27 +4,95 @@
 		<title> St. Francis </title>
 		<meta charset="utf-8" />
 		<link href="../project/css/style.css" rel="stylesheet" type="text/css"/>
+		
 </head>
+
+<div id="wrap">
 <body>
 <header>
 	<h1><a href="http://arc023.github.com/WSP/project/index">St. Francis Animal hospital</a></h1>
 </header>
-<form>
-	First name: <input type="text" name="firstname">
-	Last name: <input type="text" name="lastname"><br>
-	Phone number: <input type="text" name="phonenumber"><br>
-	Email address: <input type="text" name="email"><br>
-	<br><select>
-  		<option value="Dog">Dog</option>
-  		<option value="Cat">Cat</option>
-  		<option value="Exotic">Exotic</option>
-  		<option value="Pocket pet">Pocket pet</option>
-	</select><br>
-	<input type="radio" name="am" value="am">AM
-	<input type="radio" name="pm" value="pm">PM<br>
-	<input type="submit" value="Submit">
+<section id="main">
+<div id="two-column">
+<div id="left">
+	<ul id="contactform:">
+		<p>
+			<label for="name">*First name:</label
+			<span class="fieldbox"><input type="text" name="name" id="name" value=""/></span>
+		</p>
 	
+		<p>
+            <label for="number">*Phone number:  </label
+			<span class="fieldbox"><input type="text" name="number" id="number" value=""/></span>
+		</p>
+	
+		<p>
+            <label for="day">*Preferred date for appointment </label>
+            <span class="fieldbox"><input type="text" name="day" id="day" value=""/></span>
+        </p><input type="radio" name="am" value="am">8am - 12pm 
+  			<input type="radio" name="pm" value="pm">12pm - 7pm
+	
+        
+        	<p>
+            <label for="email">*Email</label>
+            <span class="fieldbox"><input type="text" name="email" id="email" value=""/></span>
+        </p>
+       	 	
+		<p>
+			*Pet type<select>
+  				<option value="Dog">Dog</option>
+  				<option value="Cat">Cat</option>
+  				<option value="Exotic">Exotic</option>
+  				<option value="Pocket pet">Pocket pet</option>
+				</select>
+		</p>
+		<p>
+            <label for="petname">Pet name </label>
+            <span class="fieldbox"><input type="text" name="petname" id="petname" value=""/></span>
+        </p>
+        <p>
+            <label for="petage">Pet age </label>
+            <span class="fieldbox"><input type="text" name="petage" id="petage" value=""/></span>
+        </p>
+        
+	<p>Reason for visit
+	<select>
+  		<option value="check">Check-up</option>
+  		<option value="shots">Shots/Vaccines</option>
+  		<option value="micro">Micro Chipping</option>
+  		<option value="Internal">Wellness Exam</option>
+	</select>
+	</p>
+	<p>
+		<input type="radio" name="current" value="am">I am currently a client 
+  		<input type="radio" name="not" value="pm">I am a new client
+  	</p>
+  	<p>
+  	<input type="radio" name="am" value="letter">sign me up for the newsletter 	
+	</p>
+		<input type="submit" value="Submit">
+</div>
+<div id="right">
+		<p>
+			<label for="lastname">*Last name: </label
+			<span class="fieldbox"><input type="text" name="lastname" id="lastname" value=""/></span>
+		</p>
+		<p>
+            <label for="altnum">Alt phone number: </label
+			<span class="fieldbox"><input type="text" name="altnum" id="altnum" value=""/></span>
+		</p>
+		<p>
+            <label for="altday">Alt preferred date for appointment </label>
+            <span class="fieldbox"><input type="text" name="altday" id="altday" value=""/></span>
+        </p>
+        	<input type="radio" name="am" value="am">8am - 12pm 
+  			<input type="radio" name="pm" value="pm">12pm - 7pm
+		</p>
+	</div>
 </form>
+
+</div>
+</section>
 
 <footer>
 	<p>&copy; Copyright 2013 St. Francis animal hospital</p>

@@ -38,8 +38,14 @@ nav {
 body {
 	max-width: 960px;
 	margin: 0 auto;
+}	
 
-}
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+	padding-bottom: 150px;}
 
 aside {
 }
@@ -55,7 +61,20 @@ ul {
 
 footer {
 	font-size: xx-small;
-	overflow: hidden;
+	position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
 }
 
 /* button graphics and charts */
@@ -63,7 +82,62 @@ footer {
 table {
 }
 
-
+/* forms */
+#two-column{
+	width: 550px;
+}
+#two-column #left{
+	width: 300px;
+	float: left;
+}
+#two-column #right{
+	width: 250px;
+	float: right;
+}
+#two-column p{
+	margin-bottom: 12px;
+}
+#two-column input[type="text"]{
+	border:none;
+	border:1px solid #000;
+	font-size :14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 540px;
+	padding: 5px;
+}
+#two-column #right input[type="text"], #two-column #left input[type="text"]{
+	width:240px;
+}
+#two-column textarea {
+    position: relative;
+    padding: 5px;
+    border:1px solid #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 540px;
+}
+#two-column input[type="submit"]{
+	padding:8px 18px;
+	background:#222;
+	color:#fff;
+	border: 1px solid #fff;
+	float:right;
+	font-size: 14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#two-column input[type="text"]:focus, #two-column textarea:focus{
+	background: #eee;
+}
+#two-column input[type="submit"]:hover{
+	background:#fff;
+	color:#222;
+	border: 1px solid #222;
+} 
 /* THESE ARE HERE FOR MY REFERENCE
 
 light orange buttons*/
