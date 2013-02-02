@@ -160,6 +160,8 @@ html, body {height: 100%;}
 	}
 
 aside {
+	float: left;
+	overflow: hidden;
 }
 
 ul {
@@ -199,6 +201,10 @@ ul {
 aside {
 	margin-left: 5em;
 	}
+	
+aside li {
+	list-style: none;
+	}
 #buttone {
 	margin: 3em;
 	margin-left: 5em;
@@ -215,6 +221,17 @@ aside {
 	float: right;
 	overflow: hidden;
 	width: 30%;
+	border: #f29a3c 1px solid;
+	background: #f2f0d7;
+	padding: .5em;
+	margin:.5em;
+	border-radius: .4em;
+}
+
+#formm {
+	float: right;
+	overflow: hidden;
+	width: 40%;
 	border: #f29a3c 1px solid;
 	background: #f2f0d7;
 	padding: .5em;
@@ -263,7 +280,22 @@ footer {
 	position: relative;
 	margin-top: -150px; /* negative value of footer height */
 	height: 150px;
-	clear:both;} 
+	clear: both;
+	width: 100%;
+	background-color: #4b8b6f;
+	text-align: center;} 
+	
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
 
 /*Opera Fix*/
 body:before {
@@ -382,13 +414,14 @@ a:active {
 		#front {-moz-column-count: 2;}
 		#hidenav {display: none;}
 		#himg {display: none;}
-
+		#img {display:none;}
 }
 
 @media screen and (max-width:479px) {
 		#main {padding: 2%; }
 		#himg {display: none;}
 		#logo {display: none;}
+		#img {display:none;}
 		}
 
 	
