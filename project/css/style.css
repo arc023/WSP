@@ -19,13 +19,23 @@ h1 {
 h2 {
 	font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
 	font-size: x-large;
-	color: blue;
+	color: white;
 	font-weight: normal;
-	padding-top: .15em;
+	padding-top: .7em;
+	text-shadow: 2px 2px 2px #bac2cd;
+	padding-left: .4em;
+	margin: .4em;
+	text-align: center;
 }
 
-h3 {
-
+h3 {font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+	font-size: large;
+	color: black;
+	font-weight: normal;
+	padding-top: .7em;
+	text-shadow: 2px 2px 2px #bac2cd;
+	padding-left: .4em;
+	margin: .4em;
 }
 
 #logo {
@@ -41,7 +51,7 @@ nav ul{
 	
 	
 nav li{
-	float: left;
+	float: right;
 	margin: 0;
 	}
 	
@@ -72,7 +82,12 @@ nav {
 	width: 960px;
 	}	
 	
+#fb {
+	float: right;
+	font-size: small;
+	}
 	
+
 	
 /* Body things */
 
@@ -102,7 +117,8 @@ html, body {height: 100%;}
 
 #wrap {min-height: 100%;}
 
-#main {overflow:auto;
+#main {
+	overflow:auto;
 	padding-bottom: 150px;
 	background: #80b399;
 	border: 0.15em solid #76aa8f;
@@ -119,6 +135,53 @@ ul {
 	float: left;
 	border: 1px solid black;
 	}
+	
+#visitspeech {
+	margin: 2em;
+	width: 52%;
+	}
+	
+#buttone {
+	margin: 3em;
+	margin-left: 5em;
+	}
+	
+#img {
+	float: right;
+	width: 194px;
+	padding-right: 2em;
+	padding-top: 2em;
+	}
+	
+#form {
+	float: right;
+	overflow: hidden;
+	width: 30%;
+	border: #f29a3c 1px solid;
+	background: #f2f0d7;
+	padding: .5em;
+	margin:.5em;
+	border-radius: .4em;
+}
+
+#em {
+	border: red solid 3px;
+	background: white;
+	font-size: large;
+	text-align:center;
+	width: 80%;
+	margin:0px auto;
+	}
+	
+#import {
+	background: #c2512c;
+	width: 80%;
+	margin: 0px auto;
+	border: #d9452c 2px solid;
+	overflow: hidden;
+	padding: .6em;
+	}	
+
 /* Footer things */
 
 footer {
@@ -216,6 +279,11 @@ a:active {
 	color: aqua;
 }
 
+#button {
+	margin: 200px;
+	overflow: hidden;
+	}
+	
 /* media */
 @media screen and (max-width:3000px) {	
 		#hidenav {display: none;}
