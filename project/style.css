@@ -86,36 +86,6 @@ nav {
 	width: 960px;
 	}	
 	
-#hidenav ul{
-	list-style: none;
-	padding:0;
-	margin:0;
-	overflow: hidden;
-	}
-	
-	
-#hidenav li{
-	float: right;
-	margin: 0;
-	}
-	
-#hidenav li a
-{
-	background: url(../images/background.png) #fff bottom left repeat-x;
-	height: 2em;
-	line-height: 2em;
-	float: left;
-	width: 9em;
-	display: block;
-	border: 0.12em solid #5d9e84;
-	color: #fff;
-	text-decoration: none;
-	text-align: center;
-	text-shadow: gray 0.1em 0.1em 0.1em;
-	font-family: Arial, sans-serif;
-} 
-	
-	
 #fb {
 	float: right;
 	font-size: small;
@@ -369,11 +339,13 @@ a:active {
 /* media */
 @media screen and (min-width: 960px)and(max-width:3000px) {	
 		#hidenav {display: none;}
+		#slogo {display: none;}
 	}
 
 @media screen and (min-width: 768px)and (max-width:959px) {	
 		#main {padding: 2%; }
 		#hidenav {display: none;}
+		#slogo {display: none;}
 }
 
 @media screen and (min-width: 480px)and (max-width:767px) {	
@@ -381,7 +353,7 @@ a:active {
 		#timeline {padding: 1%; }
 		#front {-moz-column-count: 2;}
 		#hidenav {display: none;}
-		#himg {display: none;}
+		#slogo {display: none;}
 
 }
 
@@ -389,6 +361,7 @@ a:active {
 		#main {padding: 2%; }
 		#himg {display: none;}
 		#logo {display: none;}
+		nav {display:none;}
 		}
 
 	
